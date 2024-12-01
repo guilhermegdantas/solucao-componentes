@@ -1,0 +1,148 @@
+*{
+    font-family: "HankenGrotesk-VariableFont", sans-serif;
+}
+
+body{
+    padding-top: 100px;
+}
+
+@font-face {
+    font-family: "HankenGrotesk-VariableFont";
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+.attribution{
+    margin-top: 300px;
+}
+
+.pag-roxa{
+    background: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left: 29%;
+}
+
+.numero{
+    margin-left: 21%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    font-size: 55px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-top: 40px;
+}
+
+.numero p {
+    font-size: 20px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+h2{
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.texto-pag{
+    text-align: center;
+    margin-top: -15px;
+}
+
+.pag-roxa p, h2{
+    color: white;
+}
+
+.resultado{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.conteudo{
+    padding-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    width: 400px;
+    height: 488px;
+    margin-left: 650px;
+    background-color: white;
+    box-shadow: 1px 1px 15px lightgray;
+}
+
+.categorias{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.numeros{
+    margin-left: 40%;
+    color: rgb(143, 137, 137);
+}
+
+.error{
+    margin-right: -10px;
+}
+
+strong{
+    color: black;
+}
+
+h3{
+    font-size: 23px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(64, 64, 70);
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.reacao, .memoria, .verbal, .visual{
+    margin-left: 120px;
+}
+
+.reacao{
+    display: flex;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+.memoria{
+    display: flex;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 5%);
+}
+
+.verbal{
+    display: flex;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 5%);
+}
+
+.visual{
+    display: flex;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 5%);
+}
